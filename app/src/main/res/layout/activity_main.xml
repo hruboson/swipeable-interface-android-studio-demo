@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- simple tab layout - tab menu (scrollable horizontally) -->
     <com.google.android.material.tabs.TabLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,8 +17,9 @@
         app:tabTextColor="@android:color/darker_gray"
         app:tabSelectedTextColor="@android:color/white"
         app:tabIndicatorColor="@android:color/white"
-        app:tabMode="fixed"
-        />
+        app:tabMode="fixed" />
+
+    <!-- The pager container - here is displayed our pager content we created -->
     <androidx.viewpager2.widget.ViewPager2
         android:layout_width="match_parent"
         android:layout_height="0sp"
@@ -25,4 +27,5 @@
         app:layout_constraintTop_toBottomOf="@id/tabLayout"
         app:layout_constraintBottom_toBottomOf="parent"
         />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
