@@ -10,7 +10,7 @@ This demo was created to help everyone learn how to make swipeable interface in 
 5. run on your device
 
 ### How to implement into your project
-When going by this tutorial please refer to source code in this repository.
+**When following this tutorial please refer to source code in this repository.**
 1. Create your main class ([`MainActivity.java`](https://github.com/hruboson/swipeable-interface-android-studio-demo/blob/main/app/src/main/java/hrubos/local/testapp/MainActivity.java))
 2. Create main layout which will include tab menu and ViewPager2 ([`activity_main.xml`](https://github.com/hruboson/swipeable-interface-android-studio-demo/blob/main/app/src/main/res/layout/activity_main.xml))
 3. Create class which extends FragmentStateAdapter for managing fragments ([`ViewPagerAdapter.java`](https://github.com/hruboson/swipeable-interface-android-studio-demo/blob/main/app/src/main/java/hrubos/local/testapp/ViewPagerAdapter.java))
